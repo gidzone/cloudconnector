@@ -1,0 +1,30 @@
+=== CloudConnector ===
+Contributors: Sanjay Gidwani (sanjay.gidwani@gmail.com)
+Tags: google-apps-scripts, salesforce, soql
+Requires at least: N/A
+Tested up to: 2.1
+Stable tag: 4.3
+
+A Google App Script to query salesforce.com orgs
+
+== Description ==
+
+
+== Installation ==
+Currently still waiting on google apps scripts approval.  In the mean time, use the following steps to install this script.
+
+1. Create a google spreadsheet
+2. Goto the Tools menu and select Script Editor.
+3. Save the script
+4. Select the OnOpen from the the function dropdown and click the play button
+5. This will ask you to authorize the script. Authorize it.
+6. Run the onOpen fuction again and you will see a Cloud Connector option in the menu bar of the spreadsheet
+7. Click the Settings tab in Cloud Connector dropdown
+8. Enter your credentials
+9. Click the login button to log you into your org.
+10.Click query to enter your soql query.
+11.Watch the results load into your spreadsheet.
+
+== Frequently Asked Questions ==
+
+1. None at this time
