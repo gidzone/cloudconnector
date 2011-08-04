@@ -1,9 +1,6 @@
 === CloudConnector ===
 Contributors: Sanjay Gidwani (sanjay.gidwani@gmail.com)
 Tags: google-apps-scripts, salesforce, soql
-Requires at least: N/A
-Tested up to: 2.1
-Stable tag: 4.3
 
 A Google App Script to query salesforce.com orgs
 
