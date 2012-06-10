@@ -2,25 +2,39 @@
 Contributors: Sanjay Gidwani (sanjay.gidwani@gmail.com)
 Tags: google-apps-scripts, salesforce, soql
 
-A Google App Script to query salesforce.com orgs
+A Google App Script to query salesforce.com
 
 == Description ==
-
+Query Salesforce data right from Google Spreedsheets. Write a SOQL query to pull data from any object.
 
 == Installation ==
-Currently still waiting on google apps scripts approval.  In the mean time, use the following steps to install this script.
+Approved by Google!
 
-1. Create a google spreadsheet
-2. Goto the Tools menu and select Script Editor.
-3. Save the script
-4. Select the OnOpen from the the function dropdown and click the play button
-5. This will ask you to authorize the script. Authorize it.
-6. Run the onOpen fuction again and you will see a Cloud Connector option in the menu bar of the spreadsheet
-7. Click the Settings tab in Cloud Connector dropdown
-8. Enter your credentials
-9. Click the login button to log you into your org.
-10.Click query to enter your soql query.
-11.Watch the results load into your spreadsheet.
+Install from Google Script Library
+1. Create a Google Spreadsheet
+2. Click the Tool menu
+3. Navigate to the Script Gallery option
+4. Search for Salesforce
+5. Click install next to CloudConnecter
+6. Click Authorize on the dialog that appears
+7. Click Close on the Script Gallery
+8. Refer to Steps 10-14 in the blog post: http://www.sanjaygidwani.net/2011/09/10/how-to-setup-and-run-cloudconnector/
+
+
+git clone method
+1. git clone https://github.com/gidzone/cloudconnector.git
+2. Copy the the contents of cloudconnector-0.1.js to the clipboard
+3. Create a google spreadsheet
+4. Goto the Tools menu and select Script Editor.
+5. Paste and Save the script
+6. Select the OnOpen from the the function dropdown and click the play button
+7. This will ask you to authorize the script. Authorize it.
+8. Run the onOpen fuction again and you will see a Cloud Connector option in the menu bar of the spreadsheet
+9. Click the Settings tab in Cloud Connector dropdown
+10. Enter your credentials
+11. Click the login button to log you into your org.
+12.Click query to enter your soql query.
+13.Watch the results load into your spreadsheet.
 
 == Frequently Asked Questions ==
 
